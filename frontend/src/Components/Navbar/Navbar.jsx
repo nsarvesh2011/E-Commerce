@@ -23,7 +23,7 @@ export const Navbar = () => {
     <div className='navbar'>
         <div className='nav-logo'>
             <img src={logo} alt="" />
-            <p>SHOPPER</p>
+            <p>Urban Treasure</p>
         </div>
         <img onClick={dropdown_toggle} className='nav-dropdown' src={nav_dropdown} alt="" />
         <ul ref={menuRef} className='nav-menu'>
